@@ -1,0 +1,33 @@
+# 数据与产物：本仓库只放代码和文档
+data/
+cache/
+runs/
+out/
+logs/
+*.npy
+*.pt
+*.pth
+*.pkl
+*.json.gz
+
+# 凭据：绝不提交
+.kaggle/
+kaggle.json
+access_token
+.env
+*.key
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
