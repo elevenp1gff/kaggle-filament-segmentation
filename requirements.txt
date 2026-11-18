@@ -1,0 +1,12 @@
+# 从零复现的依赖。Ascend NPU 环境额外需要 torch_npu，见 README §6。
+torch==2.1.0
+numpy==1.26.4
+opencv-python==4.13.0.92
+scikit-image==0.25.2
+scipy==1.15.3
+Pillow>=10.0
+tqdm
+
+# 仅预训练编码器实验需要（README §4.4 建议的方向）
+segmentation-models-pytorch==0.3.4
+timm==0.9.7
